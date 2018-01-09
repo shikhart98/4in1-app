@@ -28,7 +28,7 @@ public class UserActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_posts);
+        setContentView(R.layout.activity_user);
         rvUsersList =(RecyclerView) findViewById(R.id.rvUsersList);
         rvUsersList.setLayoutManager(new LinearLayoutManager(this));
         usersAdapter = new UserAdapter(new ArrayList<users>());
