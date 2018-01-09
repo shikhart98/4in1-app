@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#E0F2F1"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:background="#E0F2F1"
+        android:textSize="25sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:id="@+id/users_tv_name"
+        android:layout_marginBottom="7dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UserName"
+        android:background="#E0F2F1"
+        android:layout_marginBottom="7dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        android:id="@+id/users_tv_username"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="#E0F2F1"
+        android:layout_marginBottom="7dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        android:id="@+id/users_tv_email"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:background="#E0F2F1"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        android:id="@+id/users_tv_phone"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POSTS"
+            android:id="@+id/user_btn_posts"
+            android:background="#4DB6AC"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/todo"
+            android:background="#4DB6AC"
+            android:layout_marginLeft="200dp"
+            android:id="@+id/user_btn_todo"
+            />
+    </LinearLayout>
+
+</LinearLayout>

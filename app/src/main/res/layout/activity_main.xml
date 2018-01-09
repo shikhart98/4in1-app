@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.example.shikh.apphw.MainActivity">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="70dp"
+       android:orientation="horizontal">
+
+       <ImageButton
+           android:layout_width="0dp"
+           android:layout_height="170dp"
+           android:src="@drawable/posts"
+           android:scaleType="fitXY"
+           android:background="@null"
+           android:layout_marginRight="50dp"
+           android:id="@+id/ibtn_posts"
+           android:layout_weight="1"/>
+
+       <ImageButton
+           android:layout_width="0dp"
+           android:layout_height="170dp"
+           android:src="@drawable/album"
+           android:id="@+id/ibtn_album"
+           android:scaleType="fitXY"
+           android:background="@null"
+           android:layout_weight="1"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="170dp"
+            android:src="@drawable/todo"
+            android:id="@+id/ibtn_todo"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="170dp"
+            android:src="@drawable/users"
+            android:id="@+id/ibtn_users"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
